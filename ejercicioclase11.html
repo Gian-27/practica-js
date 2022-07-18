@@ -1,0 +1,48 @@
+<script src="Switch.js"> 
+
+//Cambiar para plan de ejercicios por dia//
+    let diaSemana = prompt("¿Qué día es hoy?");
+    switch (diaSemana) {
+        case "lunes":
+            alert("Hoy toca hacer cardio");
+            break;
+        case "martes":
+            alert(" Hoy toca Tren superior");
+            break;
+        case "miércoles":
+            alert("Hoy sesion de crossfit");
+            break;
+        case "jueves":
+            alert("Hoy Piernas");
+            break;
+        case "viernes":
+            alert("Hoy toca hacer cardio");
+            break;
+        case "sábado":
+            alert("Brazos");
+            break;
+        case "domingo":
+            alert("Descanso");
+            break;
+        default:
+            alert("Escribe el día de la semana en minúsculas.");
+    }
+
+
+    //Modificar contador para que se ejecute de 20 a 70//
+    for(i=20;i<=70;i++){
+document.write("El número es: " + i + "<br>");
+}
+
+//Realizar un bucle, donde el usuario pueda determinar la cantidad de veces que aparecerá el saludo ‘Hola Mundo’.//
+let cantidad = prompt("¿Cuantas veces quiere imprimir hello world?");
+
+for(i=1;i<=cantidad;i++){
+document.write(i + "Hello world" + "<br>");
+}
+
+
+
+
+
+</script>
