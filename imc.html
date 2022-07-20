@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora de Indice de masa corporal:</h1>
+    <script>let name = prompt ("Ingrese su nombre: ");
+        let peso = prompt(name +" Ingrese su peso: ");
+        let altura = prompt(name +" Ingrese su altura: ");
+        
+        let imc = peso/(altura*altura);
+        
+        if(imc<19){
+                document.write(imc+"<br>");
+                document.write("Tienes bajo peso."+"<br>");
+            } else if(imc==19 & imc<25){
+                document.write(imc+"<br>");
+                document.write("Usted tiene un IMC normal."+"<br>");
+            } else if(imc==25 & imc<30){
+                document.write(imc+"<br>");
+                document.write("Usted tiene sobrepeso."+"<br>");
+            }</script>
+</body>
+</html>
